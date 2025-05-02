@@ -1,3 +1,41 @@
+Multiplication
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def multiply_numbers(x, y):
+  """
+  This function multiplies two numbers and returns the result.
+  """
+  product = x * y
+  return product
+=======
+
 Subtraction
 
 
@@ -25,11 +63,19 @@ def add_numbers(num1, num2):
   return num1 + num2
 
 Addition
+Addition
 
 # Get input from the user
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 
+Multiplication
+# Multiply the numbers
+result = multiply_numbers(num1, num2)
+
+# Print the result
+print("The product of", num1, "and", num2, "is", result)
+=======
 
 Subtraction
 # Call the function and print the result
@@ -42,4 +88,5 @@ sum_of_numbers = add_numbers(num1, num2)
 
 # Display the result
 print("The sum of", num1, "and", num2, "is:", sum_of_numbers)
+Addition
 Addition
